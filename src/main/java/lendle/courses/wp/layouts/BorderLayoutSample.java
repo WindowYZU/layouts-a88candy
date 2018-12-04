@@ -41,6 +41,8 @@ public class BorderLayoutSample {
         frame.add(button4, "East");
         JButton button5=new JButton("5");
         frame.add(button5);
+        layout.setHgap(50);
+        layout.setVgap(50);
         
         //////////////////////////////////////////////////////////////////////
         
